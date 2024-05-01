@@ -442,7 +442,7 @@ def auto_create_page():
 
       if not cookie:
          print("\x1b[1;91mInvalid email or password.\x1b[0m")
-          input()
+         #input()
           return
 
   if choice == '1':
